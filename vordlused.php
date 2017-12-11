@@ -45,3 +45,21 @@ echo 'kas $vae1 === $var3? - '.$tulemus;
 echo '<br />';
 $tulemus = $var1 != $var4;
 echo 'kas $var1 != $var4? - '.$tulemus;
+echo '<br />';
+
+// ++ --
+$a = 2; $b = 5;
+$c = $a++; // a= 2; b= 5; ei kehti
+$d = $b--; // c= 3; d= 4; ei kehti;
+echo 'a = '.$a.
+    '; b = '.$b.
+    '; c = '.$c.
+    '; d = '.$d.'<br />';
+
+$a = 2; $b = 5;
+$c = ++$a; // a= 2; b= 5;
+$d = --$b; // c= 3; d= 4; 
+echo 'a = '.$a.
+    '; b = '.$b.
+    '; c = '.$c.
+    '; d = '.$d.'<br />';
