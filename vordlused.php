@@ -58,8 +58,13 @@ echo 'a = '.$a.
 
 $a = 2; $b = 5;
 $c = ++$a; // a= 2; b= 5;
-$d = --$b; // c= 3; d= 4; 
+$d = --$b; // c= 3; d= 4;
 echo 'a = '.$a.
     '; b = '.$b.
     '; c = '.$c.
     '; d = '.$d.'<br />';
+
+// katsetame sõne suurendamist
+$s = '5';
+$s++;
+echo $s.'<br />';
