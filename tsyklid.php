@@ -24,5 +24,10 @@ while($kord++ <= 4) {
     echo '<i>'.$kord.'<i>';
 
 }
+do {
+    if ($kord > 5) break;
+    echo '<b>' . $kord . '</b>';
+    while ($kord <= 5) ;
+}
 
 
