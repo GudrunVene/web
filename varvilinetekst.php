@@ -7,7 +7,7 @@
  */
 header('Refresh: 0.2');
 for($rida = 1; $rida <= 5; $rida++) {
-    $varv ='0';
+    $varv ='#';
     for($kord = 1; $kord <= 6; $kord++){
         $juhuTaisarv = rand(0,15);
         $juhuHex = dechex($juhuTaisarv);
