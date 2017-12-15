@@ -20,7 +20,7 @@ for ($arv = 1; $arv <= 10; $arv++){
 }
 $kord = 1;
 while/$kord <= 5) {
-    echo '<i>'.$kord.'<i>';
-    $kord++;
+    echo '<i>'.$kord++.'<i>';
+
 }
 
