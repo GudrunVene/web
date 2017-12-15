@@ -19,14 +19,16 @@
  *//*
  * rakenda loodud funktsioon iga pesa värvimiseks
  */
-function genereeriVarv(){
-    $varv ='#';
-    for ($kord = 1; $kord <= 6; $kord++){
-        $juhuTaisarv = rand(0,15);
+function genereeriVarv()
+{
+    $varv = '#';
+    for ($kord = 1; $kord <= 6; $kord++) {
+        $juhuTaisarv = rand(0, 15);
         $juhuHex = dechex($juhuTaisarv);
-        $varv = $varv.$juhuHex;
+        $varv = $varv . $juhuHex;
     }
     return $varv;
+}
 function valjastaTabel($ridadeArv, $veergudeArv){
     echo '<table border="1">';
     for($reaNumber = 1; $reaNumber <= $ridadeArv; $reaNumber++){
@@ -42,5 +44,3 @@ function valjastaTabel($ridadeArv, $veergudeArv){
     echo '</table>';
 }
 valjastaTabel(5,7);
-
-}
