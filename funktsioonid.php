@@ -16,9 +16,26 @@
  * loo funktsioon genereeriVarv mis genereerib ja tagastab põhiprogrammile
  * genereeritud värvi kujul #xxxxxxx
  * vihje: kasuta tsüklis loodud koodi ja teisenda see funktsiooniks
- *//*
+ */
+/*
  * rakenda loodud funktsioon iga pesa värvimiseks
  */
+
+
+/*
+ * koosta funktsioon nimega tekstiTabel, mis võtab parameetrina
+ * 4 sõna ja väljastab tabeli, mis koosneb 4st reast, iga rida sisaldab
+ * üht sõna, mis on parameetrina määratud
+ *
+ * lahenduses ei tohi kasutada koodi dubleerimist! - st. ei ole võimalik
+ * 4 korda kirjutada sama koodi , vaid tuleb mõelda, kuidas saab
+ * tsüklite ja muutujate defineerimisega lahendada antud ülesannet
+ *
+ * vihje - võib kasutada dünaamilise muutuja loomise võimalust
+ *
+ * katseta nii tekstiTabel('see', 'on', 'minu', 'tabel');
+ */
+function tekstiTabel()
 function genereeriVarv()
 {
     header('Refresh: 0.2');
