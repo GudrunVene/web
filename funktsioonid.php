@@ -21,6 +21,7 @@
  */
 function genereeriVarv()
 {
+    header('Refresh: 0.2');
     $varv = '#';
     for ($kord = 1; $kord <= 6; $kord++) {
         $juhuTaisarv = rand(0, 15);
