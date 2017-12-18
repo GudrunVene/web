@@ -16,14 +16,21 @@
  * Põhiprogrammis kasutada väljatrükis tagastatud väärtust koos
  * selgitava tekstiga.
  */
+/*
+ * täienda antud ülesannet, et funktsiooni kontroll toimuks 5 korda
+ * juhuslikult genereeritud arvu alusel vahemikus 0-10000
+ */
 function arvuSumma($number){
     $summa = 0;
      while($number != 0) {
          $arv = $number % 10;
-         echo 'arv ='.$arv.'<br/>';
+         $summa = $summa + $arv;
          $number = $number /  10;
          settype($number, 'integer');
-         echo 'number = '.$number.'<br/>';
      }
+     return $summa;
 }
-arvuSumma(123);
+for ($kord = 1; $kord <= 5; $kord++){
+    $number = rand(0, 10000);
+    echo 'Numbri '.$number.' arvude summa on '.arvuSumma($number).'<br/>';
+}
