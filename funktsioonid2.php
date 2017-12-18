@@ -14,5 +14,5 @@
  * Lahendamiseks ei tohi kasutada sõnetöötluse võimalusi.
  * Funktsioon peab tagastama leitud summa põhiprogrammile.
  * Põhiprogrammis kasutada väljatrükis tagastatud väärtust koos
- * selgitava tekstiga. 
+ * selgitava tekstiga.
  */
