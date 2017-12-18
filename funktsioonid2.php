@@ -16,3 +16,14 @@
  * Põhiprogrammis kasutada väljatrükis tagastatud väärtust koos
  * selgitava tekstiga.
  */
+function arvuSumma($number){
+    $summa = 0;
+     while($number != 0) {
+         $arv = $number % 10;
+         echo 'arv ='.$arv.'<br/>';
+         $number = $number /  10;
+         settype($number, 'integer');
+         echo 'number = '.$number.'<br/>';
+     }
+}
+arvuSumma(123);
